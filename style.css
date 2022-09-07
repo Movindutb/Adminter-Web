@@ -1,0 +1,170 @@
+/* ----- fonts ----- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* ----- normal ----- */
+body {
+    background-color: gainsboro;
+}
+.one {
+    color: #000000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-smooth: subpixel-antialiased;
+    text-transform: capitalize;
+    text-align: center;
+  }
+.two {
+    color: #000000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-smooth: subpixel-antialiased;
+    text-transform: capitalize;
+    padding-left: 3%;
+  }
+.who-says {
+    text-align: center;
+    color: #000000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-smooth: subpixel-antialiased;
+    text-transform: capitalize;
+}
+
+.portfolio__container{
+    overflow: initial;
+  }
+  
+.portfolio__content{
+    padding: 0 1.5rem;
+  }
+  
+.portfolio__img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+  }
+  
+.portfolio__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+  }
+  
+.portfolio__description{
+    margin-bottom: var(--mb-0-75);
+  }
+  
+.portfolio__button:hover .button__icon{
+    transform: translateX(.25rem);
+  }
+  
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: '';
+  }
+  
+.swiper-portfolio-icon{
+    font-size: 2rem;
+    color: var(--first-color);
+  }
+.three {
+    color: #000000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-smooth: subpixel-antialiased;
+    text-transform: capitalize;
+    text-align: center;
+}
+.four {
+    color: #000000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-smooth: subpixel-antialiased;
+    text-transform: capitalize;
+    padding-left: 3%;
+  }
+.nav{
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__toggle,
+.nav-link{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+  
+.nav__logo:hover{
+    color: var(--first-color);
+} 
+.nav__toggle{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+  
+.nav__toggle:hover{
+    color: var(--first-color);
+}
+  
+@media screen and (max-width: 767px) {
+ .nav__menu{
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color: var(--body-color);
+      padding: 2rem 1.5rem 4rem;
+      box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+      border-radius: 1.5rem 1.5rem 0 0;
+      transition: .3s;
+    }
+  }
+  
+.nav__list{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+  
+.nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+  
+.nav__link:hover{
+    color: var(--first-color);
+}
+  
+.nav__icon{
+    font-size: 1.2rem;
+}
+  
+.nav__close{
+    position: absolute;
+    right: 1.3rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
+}
+  
+.nav__close:hover{
+    color: var(--first-color-alt);
+}
+
+.footer {
+  text-align: center;
+}
